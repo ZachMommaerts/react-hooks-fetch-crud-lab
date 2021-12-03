@@ -22,7 +22,7 @@ function QuestionList() {
         'Accept': 'application/json'
       },
       body: JSON.stringify({
-        'correctIndex': e.target.value
+        'correctIndex': parseInt(e.target.value)
       })
     })
   }
